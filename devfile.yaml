@@ -22,7 +22,7 @@ components:
     image:
       imageName: java-springboot-image:latest
       dockerfile:
-        uri: https://raw.githubusercontent.com/yangcao77/spring-sample-with-absolute-dockerfileURI/main/docker/Dockerfile
+        uri: "https://raw.githubusercontent.com/yangcao77/spring-sample-with-absolute-dockerfileURI/main/docker/Dockerfile"
         buildContext: .
         rootRequired: false
   - name: kubernetes-deploy
